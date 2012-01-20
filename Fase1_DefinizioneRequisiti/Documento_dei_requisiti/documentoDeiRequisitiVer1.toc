@@ -1,0 +1,40 @@
+\select@language {italian}
+\contentsline {chapter}{\numberline {1}Generalit\IeC {\`a}}{2}
+\contentsline {section}{\numberline {1.1}Il committente}{2}
+\contentsline {section}{\numberline {1.2}Situazione attuale}{2}
+\contentsline {section}{\numberline {1.3}Obiettivi generali del sito}{2}
+\contentsline {section}{\numberline {1.4}Utenti}{3}
+\contentsline {subsection}{\numberline {1.4.1}Utenti esterni}{3}
+\contentsline {chapter}{\numberline {2}Requisiti del sito}{4}
+\contentsline {section}{\numberline {2.1}Requisiti di architettura e contenuto}{4}
+\contentsline {subsection}{\numberline {2.1.1}Scaletta logica dei contenuti}{4}
+\contentsline {section}{\numberline {2.2}Requisiti di comunicazione}{5}
+\contentsline {subsection}{\numberline {2.2.1}Identit\IeC {\`a} di marca, tono e stile della comunicazione}{5}
+\contentsline {subsection}{\numberline {2.2.2}Strategie di comunicazione}{5}
+\contentsline {subsection}{\numberline {2.2.3}Grafica}{5}
+\contentsline {subsection}{\numberline {2.2.4}Multimedialit\IeC {\`a}}{5}
+\contentsline {subsection}{\numberline {2.2.5}Lingua}{5}
+\contentsline {section}{\numberline {2.3}Requisiti funzionali}{6}
+\contentsline {subsection}{\numberline {2.3.1}Sicurezza}{6}
+\contentsline {section}{\numberline {2.4}Requisiti di gestione}{6}
+\contentsline {subsection}{\numberline {2.4.1}Infrastruttura per l'esercizio}{6}
+\contentsline {subsection}{\numberline {2.4.2}Gestione del sito}{6}
+\contentsline {subsection}{\numberline {2.4.3}Gestione dei contenuti}{6}
+\contentsline {subsection}{\numberline {2.4.4}Gestione degli utenti}{6}
+\contentsline {section}{\numberline {2.5}Requisiti di usabilit\IeC {\`a}}{7}
+\contentsline {subsection}{\numberline {2.5.1}Prestazioni}{7}
+\contentsline {subsection}{\numberline {2.5.2}Reperibilit\IeC {\`a}}{7}
+\contentsline {subsection}{\numberline {2.5.3}Compatibilit\IeC {\`a} con i diversi sistemi utente}{7}
+\contentsline {subsection}{\numberline {2.5.4}Accessibilit\IeC {\`a} da parte di utenti disabili}{7}
+\contentsline {subsection}{\numberline {2.5.5}Requisiti di usabilit\IeC {\`a}}{7}
+\contentsline {chapter}{\numberline {3}Requisiti di gestione del progetto}{8}
+\contentsline {section}{\numberline {3.1}Tempi e risorse}{8}
+\contentsline {section}{\numberline {3.2}Gruppo di progetto}{8}
+\contentsline {section}{\numberline {3.3}Responsabilit\IeC {\`a} del committente}{8}
+\contentsline {section}{\numberline {3.4}Documentazione prevista}{8}
+\contentsline {section}{\numberline {3.5}Verifiche e convalide}{9}
+\contentsline {section}{\numberline {3.6}Consegna finale e pubblicazione del sito}{9}
+\contentsline {section}{\numberline {3.7}Ambienti di sviluppo}{9}
+\contentsline {section}{\numberline {3.8}Altri requisiti}{9}
+\contentsline {chapter}{\numberline {A}Mappa del sito}{10}
+\contentsline {chapter}{\numberline {B}Gabbia di massima delle pagine}{12}
