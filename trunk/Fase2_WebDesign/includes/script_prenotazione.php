@@ -12,7 +12,7 @@ function escape_data($data) {		# Funzione per la gestione dei dati ricevuti dall
 	}
 
 
-if (isset($_POST['invia_offerta'])) {		# Verifico l'attivazione del pulsante "Registrati" della form
+if (isset($_POST['invia_prenotazione'])) {		# Verifico l'attivazione del pulsante "Registrati" della form
 	
 	if (eregi ("^[[:alpha:].' -]{2,15}$", stripslashes(trim($_POST['nome_offerta'])))) {	# Validazione dei dati in input tramite espressioni regolari e funzioni apposite di PHP
 		$fn=escape_data($_POST['nome_offerta']);						# Passaggio dei dati in input alla funzione escape_data per l'elaborazione

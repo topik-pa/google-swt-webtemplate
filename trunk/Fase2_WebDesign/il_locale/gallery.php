@@ -14,6 +14,8 @@ if($pagina=="index") {		//la pagina index.php risiede nella cartella principale 
 else {
 	$torna = $pagina . ".php";
 }
+$prima = "\"gallery.php?pagina=" . $pagina . "&img=" . '1' . "\"";		//percorso del link per la prima immagine
+$ultima = "\"gallery.php?pagina=" . $pagina . "&img=" . $numero_immagini . "\"";		//percorso del link per l'ultima immagine
 $next = "\"gallery.php?pagina=" . $pagina . "&img=" . ($img+1) . "\"";		//percorso del link per l'immagine successiva
 $prev = "\"gallery.php?pagina=" . $pagina . "&img=" . ($img-1) . "\"";		//percorso del link per l'immagine precedente
 $percorso_img = "img/" . $img . ".jpg";		//percorso della immagine all'interno della sottocartella
@@ -77,13 +79,15 @@ $percorso_img = "img/" . $img . ".jpg";		//percorso della immagine all'interno d
 				echo '<div><p id="prox"><a href=' . $next . 'title="Il giardiniere a Udine - Friuli: vai alla immagine successiva">Successiva &gt;&gt;</a></p></div>';
 			}
 			else {
-				echo '<div><p id="prox"></p></div>';
+				echo '<p id="prox"><a href=' . $prima . 'title="Il giardiniere a Udine - Friuli: vai alla immagine successiva">Successiva &gt;&gt;</a></p>';
+				/*echo '<div><p id="prox"></p></div>';*/
 			}
 			if(($img-1)>0) {
 				echo '<div><p id="prev"><a href=' . $prev . 'title="Il giardiniere a Udine - Friuli: vai alla immagine precedente">&lt;&lt; Precedente</a></p></div>';	//Se non si tratta della prima immagine, mostro il link per visualizzare l'immagine precedente
 			}
 			else {
-				echo '<div><p id="prev"></p></div>';
+				echo '<p id="prev"><a href=' . $ultima . 'title="Il giardiniere a Udine - Friuli: vai alla immagine precedente">&lt;&lt; Precedente</a></p>';
+				/*echo '<div><p id="prev"></p></div>';*/
 			}
 		?>
 		
