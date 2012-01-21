@@ -17,7 +17,7 @@
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta http-equiv="Content-Style-Type" content="text/css" />
 
-		<!-- Metatag specifici-->
+		<!-- Metatag specifici per pagina-->
 		<?php 
 			switch($pagina) {
 				
@@ -28,67 +28,91 @@
 					echo '<meta name="subject" content="Vini Tricardi - Produzione e vendita di vino doc e docg dei Colli Orientali del Friuli – Italia. Visita il nostro sito." />';
 				break;
 				
-				case 'i_nostri_vini': 
+				
+				
+				case 'chi_siamo': 
 					echo '<meta name="robots" content="index,follow" />';
 					echo '<meta name="keywords" content="vino, vini, rosso, bianco, italiano, produzione, colli, orientali, friuli, venezia, giulia, italia, doc, docg" />';
 					echo '<meta name="description" content="Vini Tricardi - Produzione e vendita di vino doc e docg dei Colli Orientali del Friuli – Italia. Visita il nostro sito." />';
 					echo '<meta name="subject" content="Vini Tricardi - Produzione e vendita di vino doc e docg dei Colli Orientali del Friuli – Italia. Visita il nostro sito." />';
 				break;
 				
-				case 'azienda_tricardi':
+				
+				
+				case 'il_locale':
 					echo '<meta name="robots" content="index,follow" />';
 					echo '<meta name="keywords" content="produzione, distribuzione, produttori, vini, italiani, friulani, rossi, bianchi" />';
 					echo '<meta name="description" content="L azienda italiana Tricardi produce e distribuisce vini rossi e bianchi del Collio Friulano. Visita il nostro sito." />';
 					echo '<meta name="subject" content="L azienda italiana Tricardi produce e distribuisce vini rossi e bianchi del Collio Friulano. Visita il nostro sito." />';
 				break;
 				
-				case 'contatti':
+				
+				
+				case 'eventi':
 					echo '<meta name="robots" content="index,follow" />';
 					echo '<meta name="keywords" content="vini, italia, vino, italiano" />';
 					echo '<meta name="description" content="Vino italiano, vini prodotti in Italia – Tricardi – Contatti" />';
 					echo '<meta name="subject" content="Vino italiano, vini prodotti in Italia – Tricardi – Contatti" />';
 				break;
 				
-				case 'faq':
+				
+				
+				case 'prenota':
 					echo '<meta name="robots" content="index,follow" />';
 					echo '<meta name="keywords" content="vino, vini, doc, docg, friuli, friulani, collio" />';
 					echo '<meta name="description" content="Vini doc e docg del Collio Friuli Venezia Giulia" />';
 					echo '<meta name="subject" content="Vini doc e docg del Collio Friuli Venezia Giulia" />';
 				break;
 				
-				case 'link_suggeriti':
+				
+				
+				case 'mappa':
 					echo '<meta name="robots" content="index,follow" />';
 					echo '<meta name="keywords" content="azienda, tricardi" />';
 					echo '<meta name="description" content="Azienda Tricardi, Friuli, Italia - Link suggeriti" />';
 					echo '<meta name="subject" content="Azienda Tricardi produttori di vino in Friuli, Italia - Link suggeriti" />';
 				break;
 				
-				case 'mappa_del_sito':
+				
+				
+				case 'contatti':
 					echo '<meta name="robots" content="index,follow" />';
 					echo '<meta name="keywords" content="produttori, vini, distribuzione, vino, italia, friuli" />';
 					echo '<meta name="description" content="Produttori di vini e distribuzione di vino dal Friuli (Italia). Visita il nostro sito." />';
 					echo '<meta name="subject" content="Produttori di vini e distribuzione di vino dal Friuli (Italia). Visita il nostro sito." />';
 				break;
 				
+				
+				
 				case 'il_nostro_menu':
 					echo '';
 				break;
+				
+				
 				
 				case 'specialita':
 					echo '';
 				break;
 				
+				
+				
 				case 'i_nostri_vini':
 					echo '';
 				break;
+				
+				
 				
 				case 'link_suggeriti':
 					echo '';
 				break;
 				
+				
+				
 				case 'mappa_del_sito':
 					echo '';
 				break;
+				
+				
 				
 				default:
 					echo '';

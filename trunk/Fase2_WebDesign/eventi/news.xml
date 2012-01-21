@@ -1,3 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <news>
+<evento>
+	<codiceEvento>129873771010546</codiceEvento>
+	<titolo>Capodanno 3000</titolo>
+	<data>31-12-3000</data>
+	<ora>24:00</ora>
+	<luogo>Udine, V Recinto</luogo>
+	<contatto>0432580829</contatto>
+	<link1/>
+	<descrizione>Fusce vel nibh et ante rutrum suscipit at nec lacus. Donec rutrum congue nunc vitae vehicula.</descrizione>
+	<descrizioneBreve>Capodanno del 3000 al V Recinto!</descrizioneBreve>
+	<immagine1/>
+	<immagine2/>
+	<immagine3/>
+	<immagine4/>
+	<immagine5/>
+</evento>
 </news>
+
+
+<!-- Esempio di evento:
+<evento>
+	<codiceEvento>129873771010546</codiceEvento>
+	<titolo>Capodanno 3000</titolo>
+	<data>31-12-3000</data>
+	<ora>24:00</ora>
+	<luogo>Udine, V Recinto</luogo>
+	<contatto>0432580829</contatto>
+	<link1/>
+	<descrizione>Fusce vel nibh et ante rutrum suscipit at nec lacus. Donec rutrum congue nunc vitae vehicula.</descrizione>
+	<descrizioneBreve>Capodanno del 3000 al V Recinto!</descrizioneBreve>
+	<immagine1/>
+	<immagine2/>
+	<immagine3/>
+	<immagine4/>
+	<immagine5/>
+</evento>
+-->

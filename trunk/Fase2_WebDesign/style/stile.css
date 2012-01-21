@@ -298,7 +298,7 @@ color: #FFFFFF;
 
 
 /*Colonna destra*/
-#wrapper_colonnaDx {
+.wrapper_colonnaDx {
 -moz-box-shadow: 0px 0px 15px #AAAAAA;
 -webkit-box-shadow: 0px 0px 15px #AAAAAA;
 box-shadow: 0px 0px 15px #AAAAAA;
@@ -333,7 +333,7 @@ background-color: #FF5555;
 color: #FFFFFF;
 }
 
-#titolo_colonnaDx {
+.titolo_colonnaDx {
 background-color: #990000;
 padding-bottom: 1em;
 padding-left: 1em;
@@ -349,7 +349,7 @@ background: -webkit-gradient(linear, center bottom, center top, from(#CC3333), t
 box-shadow:0px 0px 20px #333333;
 }
 
-#wrapper_colonnaDx_proposte {
+.wrapper_colonnaDx_proposte {
 -moz-box-shadow: 0px 0px 15px #AAAAAA;
 -webkit-box-shadow: 0px 0px 15px #AAAAAA;
 box-shadow: 0px 0px 15px #AAAAAA;
@@ -357,7 +357,7 @@ border-top: 1px solid #000000;
 border-top: 1px solid white;
 }
 
-#wrapper_colonnaDx_eventi {
+.wrapper_colonnaDx_eventi {
 -moz-box-shadow: 0px 0px 15px #AAAAAA;
 -webkit-box-shadow: 0px 0px 15px #AAAAAA;
 box-shadow: 0px 0px 15px #AAAAAA;
