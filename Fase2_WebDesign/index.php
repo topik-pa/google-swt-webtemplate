@@ -105,7 +105,7 @@ $pagina = "home";
 									</div>
 									<div class="body_box_home">
 										<div class="img_box_home">
-											<img alt="Lorem ipsum dolor sit amet" src="img/1.jpg" />
+											<img alt="Lorem ipsum dolor sit amet" src="img/fakeV.jpg" />
 										</div>
 										<div class="text_box_home">
 											<p>Duis consequat viverra neque, eu dignissim justo tempor varius. Pellentesque condimentum turpis ut ante gravida ultricies.</p>
@@ -121,7 +121,7 @@ $pagina = "home";
 									</div>
 									<div class="body_box_home">
 										<div class="img_box_home">
-											<img alt="Lorem ipsum dolor sit amet" src="img/2.jpg" />
+											<img alt="Lorem ipsum dolor sit amet" src="img/fakeV.jpg" />
 										</div>
 										<div class="text_box_home">
 											<p>Duis consequat viverra neque, eu dignissim justo tempor varius. Pellentesque condimentum turpis ut ante gravida ultricies.</p>
@@ -137,7 +137,7 @@ $pagina = "home";
 									</div>
 									<div class="body_box_home">
 										<div class="img_box_home">
-											<img alt="Lorem ipsum dolor sit amet" src="img/3.jpg" />
+											<img alt="Lorem ipsum dolor sit amet" src="img/fakeV.jpg" />
 										</div>
 										<div class="text_box_home">
 											<p>Duis consequat viverra neque, eu dignissim justo tempor varius. Pellentesque condimentum turpis ut ante gravida ultricies.</p>
