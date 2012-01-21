@@ -3,7 +3,7 @@
 <!-- Data: 28 sett 2010 -->
 <?php
 //Imposto due variabili di uso generale
-$titolo_pagina = "Template - Altra pagina";
+$titolo_pagina = "Template - Prenota";
 $pagina = "prenota";
 ?>
 
@@ -26,10 +26,10 @@ $pagina = "prenota";
 					<?php include('../includes/menu_servizio.php'); ?>			
 					<?php include('../includes/searchEngine_interno.php'); ?>
 					<!-- Breve riassunto degli argomenti o spazio per avvisi -->				
-					<!--<div id="quickSummary">-->
-						<!--<p class="p1"><span>Quick summary titolo</span></p>
-						<p class="p2"><span>Quick summary testo</span></p>-->	
-					<!--</div>-->
+					<!--<div id="quickSummary">
+						<p class="p1"><span>Quick summary titolo</span></p>
+						<p class="p2"><span>Quick summary testo</span></p>
+					</div>-->
 					<!-- Fine riassunto degli argomenti o avvisi -->		
 					<div class="clear_both"></div>
 				</div>
@@ -37,23 +37,23 @@ $pagina = "prenota";
 					<?php include('../includes/menu_orizzontale.php'); ?>									
 					<?php include('../includes/pageHeader.php'); ?>
 					<!-- Breadcrums -->
-					<!--<div id="breadcrums">	
+					<div id="breadcrums">	
 						<p id="sei_in"><span>Sei in:</span></p>
 						<ul id="listaBreadcrums">
-							<li id="bread_1"><a title="Vai in home page" href="index.php">Home</a></li>
-							<li id="bread_2"><a title="Vai alla pagina 2" href="http://www.google.it">&gt;&gt; Pagina 2</a></li>
-							<li id="bread_3"><a title="Vai alla pagina 2" href="http://www.google.it">&gt;&gt; Pagina 3</a></li>
+							<li id="bread_1"><a title="Vai in home page" href="../index.php">Home</a></li>
+							<li id="bread_2"><a title="Vai alla pagina 2" href="#">&gt;&gt; Pagina 2</a></li>
+							<li id="bread_3"><a title="Vai alla pagina 2" href="#">&gt;&gt; Pagina 3</a></li>
 						</ul>
-					</div>-->	
+					</div>	
 					<!-- Fine breadcrums -->
 					<!-- Breve preambolo -->
-					<!--<div id="preamble"> -->
-						<!--<h3><span>Titolo preambolo</span></h3>
+					<!--<div id="preamble"> 
+						<h3><span>Titolo preambolo</span></h3>
 						<p class="p1"><span>Preambolo paragrafo 1</span></p>
 						<p class="p2"><span>Preambolo paragrafo 2</span></p>
-						<p class="p3"><span>Preambolo paragrafo 3</span></p>-->
-					<!--</div>-->			
-					<!-- Fine preamble -->
+						<p class="p3"><span>Preambolo paragrafo 3</span></p>
+					</div>-->			
+					<!-- Fine preambolo -->
 				</div>
 			</div>			
 			<!-- Fine introduzione -->
@@ -88,8 +88,10 @@ $pagina = "prenota";
 							<p>Fusce vel nibh et ante rutrum suscipit at nec lacus. Donec rutrum congue nunc vitae vehicula. Nam vitae feugiat enim. In laoreet, libero quis luctus sollicitudin, ligula sapien commodo ligula, in malesuada nisl est nec neque. In dapibus sem a ligula lacinia egestas. Aliquam suscipit gravida pulvinar. Cras at tortor dolor.<br /><br />
 							Cras at tortor dolor. Sed rhoncus leo sed sem convallis viverra. Nam et justo justo, sed posuere nibh. Aliquam a diam neque, laoreet fringilla odio.
 							</p>
-							<?php include('../includes/script_prenotazione.php'); ?>
-							<?php include('../includes/form_prenotazione.php'); ?>
+							<div>
+								<?php include('../includes/script_prenotazione.php'); ?>
+								<?php include('../includes/form_prenotazione.php'); ?>
+							</div>
 						</div>	
 						<!-- Fine primo paragrafo -->
 					</div>

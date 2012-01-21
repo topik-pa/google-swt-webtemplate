@@ -41,8 +41,8 @@ $pagina = "home";
 						<p id="sei_in"><span>Sei in:</span></p>
 						<ul id="listaBreadcrums">
 							<li id="bread_1">Home</li>
-							<!--<li id="bread_2"><a title="Vai alla pagina 2" href="http://www.google.it">&gt;&gt; Pagina 2</a></li>
-							<li id="bread_3"><a title="Vai alla pagina 2" href="http://www.google.it">&gt;&gt; Pagina 3</a></li>-->
+							<!--<li id="bread_2"><a title="Vai alla pagina 2" href="#">&gt;&gt; Pagina 2</a></li>
+							<li id="bread_3"><a title="Vai alla pagina 2" href="#">&gt;&gt; Pagina 3</a></li>-->
 						</ul>
 					</div>	
 					<!-- Fine breadcrums -->
