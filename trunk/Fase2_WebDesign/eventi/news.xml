@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<news><evento><codiceEvento>1327225690250425</codiceEvento><titolo>Prova titolo evento 1</titolo><data>12-07-2012</data><ora>12:30</ora><luogo>Udine</luogo><contatto>marco--pavan@email.it</contatto><link1/><descrizione>Descrizione lunga evento.</descrizione><descrizioneBreve>Descrizione breve evento.</descrizioneBreve><immagine1>cube_1.JPG</immagine1><immagine2>cube_2.JPG</immagine2><immagine3>cube_3.JPG</immagine3><immagine4/><immagine5/></evento></news>
+<news></news>
 <!-- Esempio di evento:
 <evento>
 	<codiceEvento>129873771010546</codiceEvento>
