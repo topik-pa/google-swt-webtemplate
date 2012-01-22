@@ -4,44 +4,44 @@
 					<div id="form_prenotazione">
 						<h3><span>Prenotazione</span></h3>
 						<p class="p1">
-							<span>Utilizza il form sottostante se vuoi prenotare da noi. Attenzione: lascia almeno un contatto mail o telefono per permetterci di confermare la tua prenotazione!</span>
+							<span>Utilizza il form sottostante se vuoi prenotare da noi. I campi obbligatori sono indicati con una "*"</span>
 						</p>
 						<form class="form" id="formPrenotazione" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 							<fieldset>
 								<legend>Prenotazione</legend>
 								
 								<div>
-									<p><strong><label for="nome_prenotazione">Nome:</label></strong><br/>
+									<p><strong><label for="nome_prenotazione">Nome (*):</label></strong><br/>
 									<input type="text" id="nome_prenotazione" name="nome_prenotazione" size="30" /></p>
 								</div>
 
 								<div>
-									<p><strong><label for="cognome_prenotazione">Cognome:</label></strong><br/>
+									<p><strong><label for="cognome_prenotazione">Cognome (*):</label></strong><br/>
 									<input type="text" id="cognome_prenotazione" name="cognome_prenotazione" size="30" /></p>
 								</div>
 
 								<div>
-									<p><strong><label for="email_prenotazione">E-mail</label></strong><br />
+									<p><strong><label for="email_prenotazione">E-mail (*):</label></strong><br />
 									<input type="text" id="email_prenotazione" name="email_prenotazione" size="30" /></p>
 								</div>
 								
 								<div>
-									<p><strong><label for="telefono_prenotazione">Telefono:</label></strong><br/>
+									<p><strong><label for="telefono_prenotazione">Telefono (*):</label></strong><br/>
 									<input type="text" id="telefono_prenotazione" name="telefono_prenotazione" size="30" /></p>
 								</div>
 								
 								<div>
-									<p><strong><label for="giorno_prenotazione">Prenotazione per il giorno:</label></strong><br/>
+									<p><strong><label for="giorno_prenotazione">Prenotazione per il giorno (*):</label></strong><br/>
 									<input type="text" id="giorno_prenotazione" name="giorno_prenotazione" size="15" />	(es: gg/mm/aaaa)</p>
 								</div>
 								
 								<div>
-									<p><strong><label for="ora_prenotazione">Ora di arrivo:</label></strong><br/>
+									<p><strong><label for="ora_prenotazione">Ora di arrivo (*):</label></strong><br/>
 									<input type="text" id="ora_prenotazione" name="ora_prenotazione" size="15" />	(es:  hh.mm)</p>
 								</div>
 								
 								<div>
-									<p><strong><label for="posti_prenotazione">Numero di persone:</label></strong><br/>
+									<p><strong><label for="posti_prenotazione">Numero di persone (*):</label></strong><br/>
 									<input type="text" id="posti_prenotazione" name="posti_prenotazione" size="10" /></p>
 								</div>
 								

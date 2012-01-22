@@ -64,7 +64,7 @@ if (isset($_POST['invia_news'])) {		# Verifico l'attivazione del pulsante "Invia
 		echo '<p class="msg_errore">Attenzione: LINK 1 non valido<br /></p>';
 		}*/
 
-	if (eregi ("^[[:alnum:] .',-;_:!?*@#àèìòù]{2,100}$", stripslashes(trim($_POST['descrizioneBreve_evento'])))) {	# Descrizione breve
+	if (stripslashes(trim($_POST['descrizioneBreve_evento']))) {	# Descrizione breve
 		$descrizioneBreve=escape_data($_POST['descrizioneBreve_evento']);
 		}
 	else {
@@ -72,7 +72,7 @@ if (isset($_POST['invia_news'])) {		# Verifico l'attivazione del pulsante "Invia
 		echo '<p class="msg_errore">Attenzione: DESCRIZIONE BREVE non valida<br /></p>';
 		}
 
-	if (eregi ("^[[:alnum:] .',-;_:!?*@#àèìòù]{2,100}$", stripslashes(trim($_POST['descrizione_evento'])))) {	# Descrizione
+	if (stripslashes(trim($_POST['descrizione_evento']))) {	# Descrizione
 		$descrizione=escape_data($_POST['descrizione_evento']);
 		}
 	else {
@@ -100,7 +100,7 @@ if (isset($_POST['invia_news'])) {		# Verifico l'attivazione del pulsante "Invia
 			}
 		}
 		else {
-			echo 'Immagine 1 non ricevuta!';
+			echo 'Immagine 1 non inserita/caricata!';
 		}
 	
 		//Le altre immagini (stessa cosa...)
@@ -248,7 +248,7 @@ if (isset($_POST['invia_news'])) {		# Verifico l'attivazione del pulsante "Invia
 				<span><strong>Luogo:</strong>$luogo</span><br/>
 				</p>
 				<p>
-				<span>$descrizione</span<br/>
+				<span>$descrizione</span><br/>
 				</p>
 				<p>
 				<span><strong>Contatto:</strong>$contatto</span><br/>
@@ -275,7 +275,7 @@ if (isset($_POST['invia_news'])) {		# Verifico l'attivazione del pulsante "Invia
 				</div>";
 			$parte6bis="<div class=\"like_facebook_evento\">
 					<script src=\"http://connect.facebook.net/en_US/all.js#xfbml=1\"></script>
-					<fb:like href=\"http://www.127.0.0.5/eventi/pagine_evento/evento_$codiceEvento.php\" show_faces=\"true\" width=\"450\" action=\"recommend\" font=\"arial\"></fb:like>';
+					<fb:like href=\"http://www.127.0.0.5/eventi/pagine_evento/evento_$codiceEvento.php\" show_faces=\"true\" width=\"450\" action=\"recommend\" font=\"arial\"></fb:like>
 					</div>
 				</div>";
 			$parte7='<div class="clear_both"></div>
@@ -415,19 +415,44 @@ if (isset($_POST['invia_news'])) {		# Verifico l'attivazione del pulsante "Invia
 			<form class="form" id="formNews" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
 				<fieldset>
 					<legend>Creazione News</legend>
-					<p><strong><label for="titolo_evento">* Titolo evento: </label></strong><br /><input type="text" id="titolo_evento" name="titolo_evento" size="30" /></p>
-					<p><strong><label for="data_evento">* Data evento (formato: gg-mm-aaaa): </label></strong><br /><input type="text" id="data_evento" name="data_evento" size="30" /></p>
-					<p><strong><label for="ora_evento">Ora evento (formato: hh:mm): </label></strong><br /><input type="text" id="ora_evento" name="ora_evento" size="30" /></p>
-					<p><strong><label for="luogo_evento">Luogo evento :</label></strong><br /><input type="text" id="luogo_evento" name="luogo_evento" size="30" /></p>
-					<p><strong><label for="contatto_evento">Contatto (e-mail o tel): </label></strong><br /><input type="text" id="contatto_evento" name="contatto_evento" size="30" /></p>
+					<p><strong><label for="titolo_evento">Titolo evento (*): </label></strong><br />
+					<input type="text" id="titolo_evento" name="titolo_evento" size="30" /></p>
+					
+					<p><strong><label for="data_evento">Data evento (formato: gg-mm-aaaa) (*): </label></strong><br />
+					<input type="text" id="data_evento" name="data_evento" size="30" /></p>
+					
+					<p><strong><label for="ora_evento">Ora evento (formato: hh:mm): </label></strong><br />
+					<input type="text" id="ora_evento" name="ora_evento" size="30" /></p>
+					
+					<p><strong><label for="luogo_evento">Luogo evento: </label></strong><br />
+					<input type="text" id="luogo_evento" name="luogo_evento" size="30" /></p>
+					
+					<p><strong><label for="contatto_evento">Contatto (e-mail o tel): </label></strong><br />
+					<input type="text" id="contatto_evento" name="contatto_evento" size="30" /></p>
+					
 					<!--<p><strong><label for="link_evento_1">Link (http://www.sito.com): </label></strong><br /><input type="text" id="link_evento_1" name="link_evento_1" size="30" /></p>-->
-					<p><strong><label for="descrizioneBreve_evento">* Descrizione breve: </label></strong><br /><textarea  id="descrizioneBreve_evento" name="descrizioneBreve_evento" rows="3" cols="40"></textarea></p>
-					<p><strong><label for="descrizione_evento">* Descrizione evento: </label></strong><br /><textarea  id="descrizione_evento" name="descrizione_evento" rows="20" cols="40"></textarea></p>
-					<p><strong><label for="immagine_evento_1">Immagine 1 (principale):</label></strong><br /><input type="file" id="immagine1" name="immagine1" /></p>
-					<p><strong><label for="immagine_evento_2">Immagine 2:</label></strong><br /><input type="file" id="immagine2" name="immagine2" /></p>
-					<p><strong><label for="immagine_evento_3">Immagine 3:</label></strong><br /><input type="file" id="immagine3" name="immagine3" /></p>
-					<p><strong><label for="immagine_evento_4">Immagine 4:</label></strong><br /><input type="file" id="immagine4" name="immagine4" /></p>
-					<p><strong><label for="immagine_evento_5">Immagine 5:</label></strong><br /><input type="file" id="immagine5" name="immagine5" /></p>
+					
+					<p><strong><label for="descrizioneBreve_evento">Descrizione breve (*): </label></strong><br />
+					<textarea  id="descrizioneBreve_evento" name="descrizioneBreve_evento" rows="3" cols="40"></textarea></p>
+					
+					<p><strong><label for="descrizione_evento">Descrizione evento (*): </label></strong><br />
+					<textarea  id="descrizione_evento" name="descrizione_evento" rows="20" cols="40"></textarea></p>
+					
+					<p><strong><label for="immagine_evento_1">Immagine 1 (principale):</label></strong><br />
+					<input type="file" id="immagine1" name="immagine1" /></p>
+					
+					<p><strong><label for="immagine_evento_2">Immagine 2:</label></strong><br />
+					<input type="file" id="immagine2" name="immagine2" /></p>
+					
+					<p><strong><label for="immagine_evento_3">Immagine 3:</label></strong><br />
+					<input type="file" id="immagine3" name="immagine3" /></p>
+					
+					<p><strong><label for="immagine_evento_4">Immagine 4:</label></strong><br />
+					<input type="file" id="immagine4" name="immagine4" /></p>
+					
+					<p><strong><label for="immagine_evento_5">Immagine 5:</label></strong><br />
+					<input type="file" id="immagine5" name="immagine5" /></p>
+					
 					<p><input type="submit" name="invia_news" value="Invia news" /></p>
 				</fieldset>
 			</form>

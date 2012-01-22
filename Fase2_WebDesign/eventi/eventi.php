@@ -26,10 +26,10 @@ $pagina = "eventi";
 					<?php include('../includes/menu_servizio.php'); ?>			
 					<?php include('../includes/searchEngine_interno.php'); ?>
 					<!-- Breve riassunto degli argomenti o spazio per avvisi -->				
-					<!--<div id="quickSummary">-->
-						<!--<p class="p1"><span>Quick summary titolo</span></p>
-						<p class="p2"><span>Quick summary testo</span></p>-->	
-					<!--</div>-->
+					<!--<div id="quickSummary">
+						<p class="p1"><span>Quick summary titolo</span></p>
+						<p class="p2"><span>Quick summary testo</span></p>
+					</div>-->
 					<!-- Fine riassunto degli argomenti o avvisi -->		
 					<div class="clear_both"></div>
 				</div>
@@ -37,22 +37,22 @@ $pagina = "eventi";
 					<?php include('../includes/menu_orizzontale.php'); ?>									
 					<?php include('../includes/pageHeader.php'); ?>
 					<!-- Breadcrums -->
-					<!--<div id="breadcrums">	
+					<div id="breadcrums">	
 						<p id="sei_in"><span>Sei in:</span></p>
 						<ul id="listaBreadcrums">
-							<li id="bread_1"><a title="Vai in home page" href="index.php">Home</a></li>
-							<li id="bread_2"><a title="Vai alla pagina 2" href="http://www.google.it">&gt;&gt; Pagina 2</a></li>
-							<li id="bread_3"><a title="Vai alla pagina 2" href="http://www.google.it">&gt;&gt; Pagina 3</a></li>
+							<li id="bread_1"><a title="Vai in home page" href="../index.php">Home</a></li>
+							<li id="bread_2"><a title="Vai alla pagina 2" href="#">&gt;&gt; Pagina 2</a></li>
+							<li id="bread_3"><a title="Vai alla pagina 2" href="#">&gt;&gt; Pagina 3</a></li>
 						</ul>
-					</div>-->	
+					</div>	
 					<!-- Fine breadcrums -->
 					<!-- Breve preambolo -->
-					<!--<div id="preamble"> -->
-						<!--<h3><span>Titolo preambolo</span></h3>
+					<!--<div id="preamble">
+						<h3><span>Titolo preambolo</span></h3>
 						<p class="p1"><span>Preambolo paragrafo 1</span></p>
 						<p class="p2"><span>Preambolo paragrafo 2</span></p>
-						<p class="p3"><span>Preambolo paragrafo 3</span></p>-->
-					<!--</div>-->			
+						<p class="p3"><span>Preambolo paragrafo 3</span></p>
+					</div>-->			
 					<!-- Fine preamble -->
 				</div>
 			</div>			
