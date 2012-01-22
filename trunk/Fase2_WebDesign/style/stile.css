@@ -203,12 +203,16 @@ color: #FFFFFF;
 display: inline;
 
 }
-#listaBreadcrums li, p {
+#listaBreadcrums li {
 display: inline;
 color: #FFFFFF;
 }
 #listaBreadcrums a {
 color: #FFFFFF;
+}
+
+#sei_in {
+	display:inline;
 }
 
 
